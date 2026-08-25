@@ -1,0 +1,19 @@
+! Inter-VLAN Access Control Lists
+! Paste actual ACL configuration here once implemented on the core router.
+!
+! Rules to implement (see README.md "Access Control Summary" for full table):
+!
+! 1. Guest-Sports (VLAN 100) -> Internet only, deny all other internal VLANs
+! 2. Hostel-Student (VLAN 90) -> deny Admin (80), Library-Staff (10), BlockC-Faculty (70)
+! 3. All Student VLANs (20/40/50/60/90) -> deny Admin (80), Faculty (70), Library-Staff (10)
+! 4. Admin (VLAN 80) -> deny all inbound from student/guest VLANs
+! 5. Mgmt (VLAN 999) -> permit only from designated admin device(s), deny all else
+!
+! Example structure (replace with actual config):
+!
+! ip access-list extended GUEST-RESTRICT
+!  deny ip 192.168.100.0 0.0.0.255 192.168.0.0 0.0.255.255
+!  permit ip any any
+!
+! interface GigabitEthernet0/0.100
+!  ip access-group GUEST-RESTRICT in

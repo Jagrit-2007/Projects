@@ -1,0 +1,21 @@
+! Wireless AP Configuration
+! Document SSID and security settings per building here once configured.
+!
+! Example:
+!
+! Building: Library
+!   SSID: Library-Staff-WiFi   | VLAN 10 | Security: WPA2-PSK (or WPA2-Enterprise) | Hidden: Yes
+!   SSID: Library-Student-WiFi | VLAN 20 | Security: WPA2-PSK | Hidden: No
+!
+! Building: Block A
+!   SSID: BlockA-Student-WiFi  | VLAN 40 | Security: WPA2-PSK | Hidden: No
+!
+! Building: Block C
+!   SSID: BlockC-Student-WiFi  | VLAN 60 | Security: WPA2-PSK | Hidden: No
+!   SSID: BlockC-Faculty-WiFi  | VLAN 70 | Security: WPA2-PSK (or Enterprise) | Hidden: Yes
+!
+! Building: Hostel
+!   SSID: Hostel-Student-WiFi  | VLAN 90 | Security: WPA2-PSK | Hidden: No
+!
+! Building: Sports Complex
+!   SSID: Guest-Sports-WiFi    | VLAN 100 | Security: Open or WPA2-PSK (shared) | Hidden: No

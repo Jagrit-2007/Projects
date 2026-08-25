@@ -1,0 +1,8 @@
+! blockB Switch Configuration
+! Paste the running-config for this switch here once configured.
+!
+! Should include:
+! - VLAN creation and naming
+! - Access port assignments (per device/port)
+! - Trunk port configuration to core (allowed VLANs only)
+! - Management IP (VLAN 999)

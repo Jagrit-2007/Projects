@@ -1,0 +1,18 @@
+! Core Router Configuration
+! Paste the running-config from the core router/L3 switch here once configured.
+!
+! Should include:
+! - Subinterfaces (router-on-a-stick) or SVIs (if using L3 switch) for each VLAN
+! - DHCP pools per VLAN
+! - Default route / internet-facing interface (if simulated)
+!
+! Example structure (replace with actual config):
+!
+! interface GigabitEthernet0/0.10
+!  encapsulation dot1Q 10
+!  ip address 192.168.10.1 255.255.255.0
+!
+! ip dhcp pool LIBRARY-STAFF
+!  network 192.168.10.0 255.255.255.0
+!  default-router 192.168.10.1
+!  dns-server 8.8.8.8
