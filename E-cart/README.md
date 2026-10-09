@@ -2,7 +2,7 @@
 
 ![Battery](https://img.shields.io/badge/Battery-36V%20Lead--Acid-orange) ![Drive](https://img.shields.io/badge/Drive-2%20x%20BLDC%20Hub%20Motor-blueviolet) ![Build Time](https://img.shields.io/badge/Build%20Time-3%20Months-blue) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-![E-Cart](images/ecart-full.jpg)
+![E-Cart](images/ecart-full.jpeg)
 
 ---
 
@@ -51,10 +51,10 @@ Full parts list with prices: [docs/components-and-cost.md](docs/components-and-c
 
 **Drive:** Each hub motor sits inside its wheel and drives it directly, with no chain, belt, or gearbox. The controller switches current through the motor's three phases to keep the wheel turning.
 
-![Wiring diagram](images/wiring-diagram.png)
+![Wiring diagram](images/wiring-diagram.svg)
 *Wiring diagram: battery pack, both controllers, throttle, and hub motors*
 
-![E-Cart wiring](images/ecart-wiring.jpg)
+![E-Cart wiring](images/ecart-wiring.jpeg)
 *Controllers, wiring harness, hub motors, and battery on the cart*
 
 ---
@@ -63,7 +63,7 @@ Full parts list with prices: [docs/components-and-cost.md](docs/components-and-c
 
 **Mechanical mounting was the hardest part.** Fitting the wheels and hub motors to the metal frame so that everything lined up took the most effort. With help from university staff, we made the mounting parts using 45-degree cuts so the motors and wheels fit the frame properly.
 
-![Hub motor mounting brackets](images/ecart-mounting.jpg)
+![Hub motor mounting brackets](images/ecart-mounting.jpeg)
 *Hub motor wheels with the mounting brackets made for the frame*
 
 **A short-circuit mistake.** During the build, I accidentally touched both wires of the 36V battery pack together. The short circuit caused sparks and a burning smell. It showed me first-hand why battery terminals need to be insulated, why wires should be handled carefully, and why protection matters before a pack is connected.
